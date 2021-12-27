@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 
-
 * {
     box-sizing: border-box;
 }
@@ -26,7 +25,9 @@ h1 {
     font-weight: 900;
 }
 
-h2, h3, h4 {
+h2,
+h3,
+h4 {
     margin-bottom: 0px;
     margin-top: 20px;
 }
@@ -36,7 +37,7 @@ h2 {
     font-size: 1.7rem;
     font-weight: 700;
     padding-bottom: 2px;
-    margin-bottom: 10px; 
+    margin-bottom: 10px;
 }
 
 h3 {
@@ -47,7 +48,8 @@ h3 {
 h4 {
     font-size: 1.1rem;
     font-weight: 600;
-    color: #666;}
+    color: #666;
+}
 
 
 p {
@@ -65,4 +67,11 @@ p + ul {
 
 p + ol {
     margin-top: -10px;
+}
+
+.jumbotron {
+    padding: 5px;
+    margin: 5px;
+    background: #f60;
+    color: white;
 }
