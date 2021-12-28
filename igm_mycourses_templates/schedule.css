@@ -1,103 +1,141 @@
 /* Adapted from https://codepen.io/redesigned/pen/wvoEvqG */
 
-/* # The Rotating Marker # 
-details summary::-webkit-details-marker { display: none; }
-summary::before {
-  content: "▶";
-  position: absolute;
-  top: .5rem;
-  left: 0.8rem;
-  transform: rotate(0);
-  transform-origin: center;
-  transition: 0.2s transform ease;
+/* # The Rotating Marker # */
+details summary::-webkit-details-marker {
+    display: none;
 }
-details[open] > summary:before {
-  transform: rotate(90deg);
-  transition: 0.45s transform ease;
-}*/
 
-/* # The Sliding Summary # 
-details { overflow: hidden; }
+summary::before {
+    content: "▶";
+    position: absolute;
+    top: .5rem;
+    left: 0.8rem;
+    transform: rotate(0);
+    transform-origin: center;
+    transition: 0.2s transform ease;
+}
+
+details[open] > summary:before {
+    transform: rotate(90deg);
+    transition: 0.45s transform ease;
+}
+
+/* # The Sliding Summary # */
+details {
+    overflow: hidden;
+}
+
 details summary {
-  position: relative;
-  z-index: 10;
+    position: relative;
+    z-index: 10;
 }
+
 @keyframes details-show {
-  from {
-    margin-bottom: -80%;
-    opacity: 0;
-    transform: translateY(-100%);
-  }
+    from {
+        margin-bottom: -80%;
+        opacity: 0;
+        transform: translateY(-100%);
+    }
 }
+
 details > *:not(summary) {
-  animation: details-show 500ms ease-in-out;
-  position: relative;
-  z-index: 1;
-  transition: all 0.3s ease-in-out;
-  color: transparent;
-  overflow: hidden;
+    animation: details-show 500ms ease-in-out;
+    position: relative;
+    z-index: 1;
+    transition: all 0.3s ease-in-out;
+    color: transparent;
+    overflow: hidden;
 }
-details[open] > *:not(summary) { color: inherit; }
-*/
+
+details[open] > *:not(summary) {
+    color: inherit;
+}
+
 
 
 /* # Just Some Pretty Styles # */
-body { font-family: "Lato", sans-serif; padding-bottom: 400px; }
-img { max-width: 100%; }
-p { margin: 0; padding-bottom: 10px; }
-p:last-child { padding: 0; }
+body {
+    font-family: "Lato", sans-serif;
+    padding-bottom: 400px;
+}
+
+img {
+    max-width: 100%;
+}
+
+p {
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+p:last-child {
+    padding: 0;
+}
+
 details {
-  width: 100%;
-  box-sizing: border-box;
-  margin-top: 5px;
-  background: white;
-}
-summary {
-  border: 1px solid transparent;
-  outline: none;
-  padding: .5rem;
-  display: block;
-  background: #666;
-  color: white;
-  font-weight: 500; 
-  padding-left: 2.2rem;
-  position: relative;
-  cursor: pointer;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 5px;
+    background: white;
 }
 
 summary {
-  color: #FFF;
-  background: #f60;
+    border: 1px solid transparent;
+    outline: none;
+    padding: .5rem;
+    display: block;
+    background: #666;
+    color: white;
+    font-weight: 500;
+    padding-left: 2.2rem;
+    position: relative;
+    cursor: pointer;
 }
 
-/*details[open] summary,
+/*
+summary {
+    color: #FFF;
+    background: #f60;
+}*/
+
+details[open] summary,
 summary:hover {
-  color: #FFF;
-  background: #f60;
+    color: #FFF;
+    background: #f60;
 }
+
 summary:hover strong,
 details[open] summary strong,
 summary:hover::before,
 details[open] summary::before {
-  color: #fff;
+    color: #fff;
 }
+
 .content {
-  padding: 10px;
-  border: 2px solid #888;
-  border-top: none;
-}*/
+    padding: 10px;
+    border: 2px solid #888;
+    border-top: none;
+}
 
 
-th {border-bottom: 1px solid black; text-align: left; background-color: #f60; color: #fff}
-td {border-bottom: 1px solid #ccc}
+th {
+    border-bottom: 1px solid black;
+    text-align: left
+        /* background-color: #f60;
+    color: #fff*/
+}
+
+td {
+    border-bottom: 1px solid #ccc
+}
+
 table {
-    width: 100%; 
+    width: 100%;
     margin: 1px;
-    border-collapse: collapse;}
+    border-collapse: collapse;
+}
 
 .intro {
-  font-weight: 600; 
-  font-size: large;
-}   
-
-  
+    font-weight: 600;
+    font-size: large;
+}
