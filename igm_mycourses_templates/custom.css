@@ -25,7 +25,11 @@ h1 {
     font-weight: 900;
 }
 
-h2,
+h2 {
+    margin-bottom: 0px;
+    margin-top: 40px;
+}
+
 h3,
 h4 {
     margin-bottom: 0px;
@@ -74,4 +78,15 @@ p + ol {
     margin: 5px;
     background: #f60;
     color: white;
+    text-align: center
+}
+
+.card-body {
+    padding: 5px;
+    margin: 5px;
+    text-align: center
+}
+
+.tab {
+    margin-left: 40px;
 }
