@@ -66,6 +66,7 @@ img {
 p {
     margin: 0;
     padding-bottom: 10px;
+    font-size: 0.9rem;
 }
 
 p:last-child {
