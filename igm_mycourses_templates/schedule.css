@@ -69,6 +69,11 @@ p {
     font-size: 0.9rem;
 }
 
+li {
+    margin: 0;
+    font-size: 0.8rem;
+}
+
 p:last-child {
     padding: 0;
 }

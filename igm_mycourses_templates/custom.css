@@ -69,6 +69,11 @@ p + ul {
     margin-top: -10px;
 }
 
+li {
+    margin-top: -5px;
+    font-weight: 300;
+}
+
 p + ol {
     margin-top: -10px;
 }
