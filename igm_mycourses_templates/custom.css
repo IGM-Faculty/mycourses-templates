@@ -6,8 +6,7 @@
 
 html {
     /* sets base font size for rem sizing */
-    font-size: 16px;
-    line-height: 1.4rem;
+    font-size: 17px;
     font-family: 'Lato', sans-serif;
     font-weight: 300;
 }
@@ -16,7 +15,6 @@ body {
     padding-left: 20px;
     background-color: #fff;
     max-width: 1200px;
-    font-family: 'Lato';
 }
 
 h1 {
@@ -57,7 +55,7 @@ h4 {
 
 
 p {
-    margin-top: 5px;
+    margin-top: 4px;
     font-weight: 300;
 }
 
@@ -67,6 +65,11 @@ p a {
 
 p + ul {
     margin-top: -10px;
+}
+
+li {
+    margin-top: -3px;
+    font-weight: 300;
 }
 
 p + ol {
