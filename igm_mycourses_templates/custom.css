@@ -18,49 +18,36 @@ body {
 }
 
 h1 {
-    font-size: 2.1rem;
-    line-height: 2.2rem;
-    font-weight: 900;
-}
-
-h2 {
-    margin-bottom: 0px;
-    margin-top: 40px;
-}
-
-h3,
-h4 {
-    margin-bottom: 0px;
-    margin-top: 20px;
-}
-
-h2 {
-    border-bottom: 1px solid black;
-    font-size: 1.7rem;
+    font-size: 2.5rem;
     font-weight: 700;
-    padding-bottom: 2px;
-    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    border-bottom: 1px solid black;
+    margin-top: 15px;
+    margin-bottom: 5px;
 }
 
 h3 {
-    font-size: 1.3rem;
-    font-weight: 600;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 5px;
 }
 
 h4 {
-    font-size: 1.1rem;
-    font-weight: 600;
-    color: #666;
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 5px;
 }
-
 
 p {
-    margin-top: 4px;
-    font-weight: 300;
-}
-
-p a {
-    font-weight: 400;
+    margin-top: 2px;
 }
 
 p + ul {
@@ -69,7 +56,6 @@ p + ul {
 
 li {
     margin-top: -3px;
-    font-weight: 300;
 }
 
 p + ol {
