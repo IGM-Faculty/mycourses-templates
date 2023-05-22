@@ -51,12 +51,11 @@ details[open] > *:not(summary) {
     color: inherit;
 }
 
-
-
 /* # Just Some Pretty Styles # */
 body {
     font-family: "Lato", sans-serif;
     padding-bottom: 400px;
+    font-size: 0.9rem;
 }
 
 img {
@@ -66,12 +65,6 @@ img {
 p {
     margin: 0;
     padding-bottom: 10px;
-    font-size: 0.9rem;
-}
-
-li {
-    margin: 0;
-    font-size: 0.8rem;
 }
 
 p:last-child {
@@ -81,14 +74,14 @@ p:last-child {
 details {
     width: 100%;
     box-sizing: border-box;
-    margin-top: 5px;
+    margin-top: 10px;
     background: white;
 }
 
 summary {
     border: 1px solid transparent;
     outline: none;
-    padding: .5rem;
+    padding: .3rem;
     display: block;
     background: #666;
     color: white;
@@ -96,6 +89,7 @@ summary {
     padding-left: 2.2rem;
     position: relative;
     cursor: pointer;
+    font-size: 1.2rem;
 }
 
 /*
@@ -119,13 +113,14 @@ details[open] summary::before {
 
 .content {
     padding: 10px;
-    border: 2px solid #888;
+    border: 1px solid #888;
     border-top: none;
 }
 
 
 th {
     border-bottom: 1px solid black;
+    font-size: 1rem;
     text-align: left
         /* background-color: #f60;
     color: #fff*/
