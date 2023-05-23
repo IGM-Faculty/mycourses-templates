@@ -6,7 +6,7 @@
 
 html {
     /* sets base font size for rem sizing */
-    font-size: 17px;
+    font-size: 14px;
     font-family: 'Lato', sans-serif;
     font-weight: 300;
 }
@@ -36,9 +36,9 @@ h2 {
 h3 {
     font-size: 1.5rem;
     font-weight: 700;
-    margin-top: 10px;
+    margin-top: 15px;
     margin-bottom: 5px;
-    color: #02819c;
+    color: #686868;
 }
 
 h4 {
@@ -75,6 +75,14 @@ p + ol {
     padding: 5px;
     margin: 5px;
     background: #f60;
+    color: white;
+    text-align: center
+}
+
+.highlight {
+    padding: 10px;
+    margin: 10px;
+    background: #686868;
     color: white;
     text-align: center
 }
