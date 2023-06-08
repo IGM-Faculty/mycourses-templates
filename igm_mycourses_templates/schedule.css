@@ -117,6 +117,11 @@ details[open] summary::before {
     border-top: none;
 }
 
+.content-fullBorder {
+    padding: 10px;
+    border: 1px solid #888;
+}
+
 
 th {
     border-bottom: 1px solid black;
@@ -127,13 +132,17 @@ th {
 }
 
 td {
-    border-bottom: 1px solid #ccc
+    border: 1px solid #ccc;
+    padding: 10px;
 }
 
 table {
     width: 100%;
     margin: 1px;
     border-collapse: collapse;
+    border-style: hidden;
+    /*Remove all the outside
+    borders of the existing table*/
 }
 
 .intro {
