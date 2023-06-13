@@ -126,9 +126,8 @@ details[open] summary::before {
 th {
     border-bottom: 1px solid black;
     font-size: 1rem;
-    text-align: left
-        /* background-color: #f60;
-    color: #fff*/
+    text-align: left;
+    color: black;
 }
 
 td {
@@ -147,5 +146,6 @@ table {
 
 .intro {
     font-weight: 600;
-    font-size: large;
+    font-size: 1.2rem;
+    font-style: italic;
 }
