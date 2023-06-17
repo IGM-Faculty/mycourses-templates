@@ -54,7 +54,7 @@ details[open] > *:not(summary) {
 /* # Just Some Pretty Styles # */
 body {
     font-family: "Lato", sans-serif;
-    padding-bottom: 400px;
+    padding-bottom: 100px;
     font-size: 0.9rem;
 }
 
@@ -76,6 +76,8 @@ details {
     box-sizing: border-box;
     margin-top: 10px;
     background: white;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 summary {
@@ -112,13 +114,13 @@ details[open] summary::before {
 }
 
 .content {
-    padding: 10px;
+    padding: 1rem;
     border: 1px solid #888;
     border-top: none;
 }
 
 .content-fullBorder {
-    padding: 10px;
+    padding: 1rem;
     border: 1px solid #888;
 }
 
@@ -136,8 +138,6 @@ td {
 }
 
 table {
-    width: 100%;
-    margin: 1px;
     border-collapse: collapse;
     border-style: hidden;
     /*Remove all the outside
