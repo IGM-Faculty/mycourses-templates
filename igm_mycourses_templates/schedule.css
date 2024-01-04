@@ -1,56 +1,5 @@
 /* Adapted from https://codepen.io/redesigned/pen/wvoEvqG */
 
-/* # The Rotating Marker # */
-details summary::-webkit-details-marker {
-    display: none;
-}
-
-summary::before {
-    content: "▶";
-    position: absolute;
-    top: .5rem;
-    left: 0.8rem;
-    transform: rotate(0);
-    transform-origin: center;
-    transition: 0.2s transform ease;
-}
-
-details[open] > summary:before {
-    transform: rotate(90deg);
-    transition: 0.45s transform ease;
-}
-
-/* # The Sliding Summary # */
-details {
-    overflow: hidden;
-}
-
-details summary {
-    position: relative;
-    z-index: 10;
-}
-
-@keyframes details-show {
-    from {
-        margin-bottom: -80%;
-        opacity: 0;
-        transform: translateY(-100%);
-    }
-}
-
-details > *:not(summary) {
-    animation: details-show 500ms ease-in-out;
-    position: relative;
-    z-index: 1;
-    transition: all 0.3s ease-in-out;
-    color: transparent;
-    overflow: hidden;
-}
-
-details[open] > *:not(summary) {
-    color: inherit;
-}
-
 /* # Just Some Pretty Styles # */
 body {
     font-family: "Lato", sans-serif;
@@ -58,13 +7,14 @@ body {
     font-size: 0.9rem;
 }
 
-img {
-    max-width: 100%;
-}
-
 p {
     margin: 0;
     padding-bottom: 10px;
+}
+
+h4 {
+    font-size: 1.1rem;
+    margin: 1px;
 }
 
 p:last-child {
@@ -84,37 +34,17 @@ summary {
     border: 1px solid transparent;
     outline: none;
     padding: .3rem;
-    display: block;
-    background: #666;
-    color: white;
+    color: #FFF;
+    background: #f60;
     font-weight: 500;
     padding-left: 2.2rem;
     position: relative;
-    cursor: pointer;
     font-size: 1.2rem;
 }
 
-/*
-summary {
-    color: #FFF;
-    background: #f60;
-}*/
-
-details[open] summary,
-summary:hover {
-    color: #FFF;
-    background: #f60;
-}
-
-summary:hover strong,
-details[open] summary strong,
-summary:hover::before,
-details[open] summary::before {
-    color: #fff;
-}
 
 .content {
-    padding: 1rem;
+    padding: .5rem;
     border: 1px solid #888;
     border-top: none;
 }
@@ -128,24 +58,72 @@ details[open] summary::before {
 th {
     border-bottom: 1px solid black;
     font-size: 1rem;
+    padding: 0.3rem;
     text-align: left;
     color: black;
 }
 
 td {
     border: 1px solid #ccc;
-    padding: 2px;
+    padding: 0.3rem;
 }
 
 table {
-    border-collapse: collapse;
     border-style: hidden;
     /*Remove all the outside
     borders of the existing table*/
+}
+
+table.sprint {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table.sprint th {
+    text-align: center;
+}
+
+table.sprint tr.weekend {
+    background-color: #dddddd;
+}
+
+table.sprint td.vacation {
+    background-color: #a3a3a3;
+}
+
+table.sprint td.center {
+    text-align: center;
+}
+
+col.small {
+    width: 8%;
+}
+
+col.large {
+    width: 41%;
+}
+
+table.sprint td.first {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.4em;
 }
 
 .intro {
     font-weight: 600;
     font-size: 1.2rem;
     font-style: italic;
+}
+
+p.summary {
+    border: 1px solid transparent;
+    outline: none;
+    padding: .2rem;
+    margin-top: 1rem;
+    color: #FFF;
+    background: #F76902;
+    font-weight: 500;
+    padding-left: 1rem;
+    position: relative;
+    font-size: 1.2rem;
 }

@@ -6,7 +6,7 @@
 
 html {
     /* sets base font size for rem sizing */
-    font-size: 14px;
+    font-size: 1em;
     font-family: 'Lato', sans-serif;
     font-weight: 300;
 }
@@ -18,12 +18,12 @@ body {
 }
 
 h1,
-h2,
-h3 {
+h2 {
     font-weight: 700;
     margin-bottom: 5px;
 }
 
+h3,
 h4,
 h5 {
     font-weight: 625;
@@ -33,6 +33,7 @@ h5 {
 h1 {
     font-size: 2.5rem;
     margin-top: 20px;
+    color: #c95602;
 }
 
 h2 {
@@ -42,13 +43,13 @@ h2 {
 }
 
 h3 {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     margin-top: 10px;
+    font-style: italic;
 }
 
 h4 {
-    color: #c95602;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     margin-top: 5px;
 }
 
