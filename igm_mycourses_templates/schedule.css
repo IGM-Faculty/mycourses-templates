@@ -99,6 +99,10 @@ col.small {
     width: 8%;
 }
 
+col.medium {
+    width: 30%;
+}
+
 col.large {
     width: 41%;
 }
