@@ -1,1293 +1,733 @@
 <!doctype html>
 <html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-<head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- Bootstrap CSS (will eventually be replaced with local CSS file)-->
+        <link
+            rel="stylesheet"
+            href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+            integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+            crossorigin="anonymous" />
 
-    <!-- Bootstrap CSS (will eventually be replaced with local CSS file)-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="custom.css" />
+        <link rel="stylesheet" href="schedule.css" />
+        <title>Course Schedule</title>
+    </head>
 
+    <body>
+        <div class="jumbotron">
+            <strong>TEMPLATE</strong>
+            <p>
+                This page was created from a template. Update with the correct
+                content for your course and remove this header before sharing
+                with students!<br />If you want to use Erika's template to help
+                plan/generate your schedule, you can make a copy of
+                <a
+                    href="https://docs.google.com/spreadsheets/d/1leX7QuOjC0i5SAVraVZa2OBcLBSshKqmQgXoLbsIZ5I/edit?usp=sharing"
+                    >this Google Sheet</a
+                >. Be warned that it's pretty hacky!
+            </p>
+        </div>
+        <h2>Important Dates, Fall 2024 (2235)</h2>
+        <ul>
+            <li>8/26: Day, evening and online classes begin</li>
+            <li>8/31: Saturday classes begin</li>
+            <li>9/2: Labor Day (No classes)</li>
+            <li>9/3: Last day of Add/Drop period</li>
+            <li>10/14-15: Fall Break (No classes)</li>
+            <li>11/8: Last day to drop from classes with a grade of "W"</li>
+            <li>11/27: No classes - University closes at 2pm</li>
+            <li>11/28-29: Thanksgiving Holiday - University closed</li>
+            <li>12/9: Last day, evening, and online classes</li>
+            <li>12/10: Reading Day</li>
+            <li>12/11-18: Final exams</li>
+            <li>12/20: Final grades due</li>
+        </ul>
+        <p class="intro">
+            Do NOT make travel plans for the finals period until ALL of your
+            exam times have been set for ALL classes!
+        </p>
+        <h2>Course Schedule</h2>
+        <div class="highlight">
+            <p>
+                <strong><em>This is subject to change!</em></strong> Check
+                myCourses frequently for updates!
+            </p>
+        </div>
 
-    <link rel="stylesheet" href="custom.css">
-    <link rel="stylesheet" href="schedule.css">
-    <title>Course Schedule</title>
-</head>
-
-<body>
-    <div class="jumbotron">
-        <strong>TEMPLATE</strong>
-        <p>This page was created from a template. Update with the correct content for your course and remove this header before sharing with students!<br>If you want to use Erika's template to help plan/generate your schedule, you can make a copy of <a href="https://docs.google.com/spreadsheets/d/1LFcs_4DJJ4Psi79AwRDe-ZsuZeZp4Sj19BiJK7HiCiw/edit?usp=sharing">this Google Sheet</a>. Be warned that it's pretty hacky!</p>
-    </div>
-    <h2>Important Dates, Spring 2024 (2235)</h2>
-    <ul>
-        <li>1/23: Last day of Add/Drop period</li>
-        <li>4/5: Last day to drop from classes with a grade of "W"</li>
-        <li>4/29: Last day, evening, and online classes</li>
-        <li>4/30: Reading Day</li>
-        <li>5/1-8: Final exams</li>
-        <li>5/10: Final grades due</li>
-    </ul>
-    <p class="intro">Do NOT make travel plans for the finals period until ALL of your exam times have been set for ALL classes!</p>
-    <h2>Course Schedule</h2>
-    <div class="highlight">
-        <p><strong><em>This is subject to change!</em></strong> Check myCourses frequently for updates!</p>
-    </div>
-
-    <p class="summary">Course Kickoff (1/15-2/4)</p>
-    <div class="content">
-        <table class="sprint">
-            <colgroup>
-                <col class="small">
-                <col class="small">
-                <col class="large">
-                <col class="large">
-            </colgroup>
-            <thead>
-                <tr>
-                    <th>Week</th>
-                    <th>Date</th>
-                    <th>Topic</th>
-                    <th>Assignment(s) Due</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td class="first" rowspan="7">
-                        <h4>1</h4>
-                    </td>
-                    <td class="vacation center">
-                        <p>Mon 1/15</p>
-                    </td>
-                    <td class="vacation center" colspan="2">
-                        <p>MLK Jr. Day (No Classes)</p>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <p>Tue 1/16</p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <p>Wed 1/17</p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <p>Thu 1/18</p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <p>Fri 1/19</p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                </tr>
-                <tr class="weekend center">
-                    <td>
-                        <p>Sat 1/20</p>
-                    </td>
-                    <td class="weekend center" colspan="2">
-                        <p></p>
-                    </td>
-                </tr>
-                <tr class="weekend center">
-                    <td>
-                        <p>Sun 1/21</p>
-                    </td>
-                    <td class="weekend center" colspan="2">
-                        <p></p>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="first" rowspan="7">
-                        <h4>2</h4>
-                    </td>
-                    <td>
-                        <p>Mon 1/22</p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <p>Tue 1/23</p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <p>Wed 1/24</p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <p>Thu 1/25</p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <p>Fri 1/26</p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                </tr>
-                <tr class="weekend center">
-                    <td>
-                        <p>Sat 1/27</p>
-                    </td>
-                    <td class="weekend center" colspan="2">
-                        <p></p>
-                    </td>
-                </tr>
-                <tr class="weekend center">
-                    <td>
-                        <p>Sun 1/28</p>
-                    </td>
-                    <td class="weekend center" colspan="2">
-                        <p></p>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="first" rowspan="7">
-                        <h4>3</h4>
-                    </td>
-                    <td>
-                        <p>Mon 1/29</p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <p>Tue 1/30</p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <p>Wed 1/31</p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <p>Thu 2/1</p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <p>Fri 2/2</p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                </tr>
-                <tr class="weekend center">
-                    <td>
-                        <p>Sat 2/3</p>
-                    </td>
-                    <td class="weekend center" colspan="2">
-                        <p></p>
-                    </td>
-                </tr>
-                <tr class="weekend center">
-                    <td>
-                        <p>Sun 2/4</p>
-                    </td>
-                    <td class="weekend center" colspan="2">
-                        <p></p>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-    <p class="summary">Sprint 1 (2/5-2/18): ???</p>
-    <div class="content">
-        <table class="sprint">
-            <colgroup>
-                <col class="small">
-                <col class="small">
-                <col class="large">
-                <col class="large">
-            </colgroup>
-            <thead>
-                <tr>
-                    <th>Week</th>
-                    <th>Date</th>
-                    <th>Topic</th>
-                    <th>Assignment(s) Due</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td class="first" rowspan="7">
-                        <h4>4</h4>
-                    </td>
-                    <td>
-                        <p>Mon 2/5</p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <p>Tue 2/6</p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <p>Wed 2/7</p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <p>Thu 2/8</p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <p>Fri 2/9</p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                </tr>
-                <tr class="weekend center">
-                    <td>
-                        <p>Sat 2/10</p>
-                    </td>
-                    <td class="weekend center" colspan="2">
-                        <p></p>
-                    </td>
-                </tr>
-                <tr class="weekend center">
-                    <td>
-                        <p>Sun 2/11</p>
-                    </td>
-                    <td class="weekend center" colspan="2">
-                        <p></p>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="first" rowspan="7">
-                        <h4>5</h4>
-                    </td>
-                    <td>
-                        <p>Mon 2/12</p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <p>Tue 2/13</p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <p>Wed 2/14</p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <p>Thu 2/15</p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <p>Fri 2/16</p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                </tr>
-                <tr class="weekend center">
-                    <td>
-                        <p>Sat 2/17</p>
-                    </td>
-                    <td class="weekend center" colspan="2">
-                        <p></p>
-                    </td>
-                </tr>
-                <tr class="weekend center">
-                    <td>
-                        <p>Sun 2/18</p>
-                    </td>
-                    <td class="weekend center" colspan="2">
-                        <p></p>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-    <p class="summary">Sprint 2 (2/19-3/3): ???</p>
-    <div class="content">
-        <table class="sprint">
-            <colgroup>
-                <col class="small">
-                <col class="small">
-                <col class="large">
-                <col class="large">
-            </colgroup>
-            <thead>
-                <tr>
-                    <th>Week</th>
-                    <th>Date</th>
-                    <th>Topic</th>
-                    <th>Assignment(s) Due</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td class="first" rowspan="7">
-                        <h4>6</h4>
-                    </td>
-                    <td>
-                        <p>Mon 2/19</p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <p>Tue 2/20</p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <p>Wed 2/21</p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <p>Thu 2/22</p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <p>Fri 2/23</p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                </tr>
-                <tr class="weekend center">
-                    <td>
-                        <p>Sat 2/24</p>
-                    </td>
-                    <td class="weekend center" colspan="2">
-                        <p></p>
-                    </td>
-                </tr>
-                <tr class="weekend center">
-                    <td>
-                        <p>Sun 2/25</p>
-                    </td>
-                    <td class="weekend center" colspan="2">
-                        <p></p>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="first" rowspan="7">
-                        <h4>7</h4>
-                    </td>
-                    <td>
-                        <p>Mon 2/26</p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <p>Tue 2/27</p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <p>Wed 2/28</p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <p>Thu 2/29</p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <p>Fri 3/1</p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                </tr>
-                <tr class="weekend center">
-                    <td>
-                        <p>Sat 3/2</p>
-                    </td>
-                    <td class="weekend center" colspan="2">
-                        <p></p>
-                    </td>
-                </tr>
-                <tr class="weekend center">
-                    <td>
-                        <p>Sun 3/3</p>
-                    </td>
-                    <td class="weekend center" colspan="2">
-                        <p></p>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-    <p class="summary">Sprint 3 (3/4-3/24): ???</p>
-    <div class="content">
-        <table class="sprint">
-            <colgroup>
-                <col class="small">
-                <col class="small">
-                <col class="large">
-                <col class="large">
-            </colgroup>
-            <thead>
-                <tr>
-                    <th>Week</th>
-                    <th>Date</th>
-                    <th>Topic</th>
-                    <th>Assignment(s) Due</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td class="first" rowspan="7">
-                        <h4>8</h4>
-                    </td>
-                    <td>
-                        <p>Mon 3/4</p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <p>Tue 3/5</p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <p>Wed 3/6</p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <p>Thu 3/7</p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <p>Fri 3/8</p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                </tr>
-                <tr class="weekend center">
-                    <td>
-                        <p>Sat 3/9</p>
-                    </td>
-                    <td class="weekend center" colspan="2">
-                        <p></p>
-                    </td>
-                </tr>
-                <tr class="weekend center">
-                    <td>
-                        <p>Sun 3/10</p>
-                    </td>
-                    <td class="weekend center" colspan="2">
-                        <p></p>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="first" rowspan="7">
-                        <h4>Spring Break</h4>
-                    </td>
-                    <td class="vacation center">
-                        <p>Mon 3/11</p>
-                    </td>
-                    <td class="vacation center" colspan="2">
-                        <p>Spring Break</p>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="vacation center">
-                        <p>Tue 3/12</p>
-                    </td>
-                    <td class="vacation center" colspan="2">
-                        <p>Spring Break</p>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="vacation center">
-                        <p>Wed 3/13</p>
-                    </td>
-                    <td class="vacation center" colspan="2">
-                        <p>Spring Break</p>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="vacation center">
-                        <p>Thu 3/14</p>
-                    </td>
-                    <td class="vacation center" colspan="2">
-                        <p>Spring Break</p>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="vacation center">
-                        <p>Fri 3/15</p>
-                    </td>
-                    <td class="vacation center" colspan="2">
-                        <p>Spring Break</p>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="vacation center">
-                        <p>Sat 3/16</p>
-                    </td>
-                    <td class="vacation center" colspan="2">
-                        <p>Spring Break</p>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="vacation center">
-                        <p>Sun 3/17</p>
-                    </td>
-                    <td class="vacation center" colspan="2">
-                        <p>Spring Break</p>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="first" rowspan="7">
-                        <h4>9</h4>
-                    </td>
-                    <td>
-                        <p>Mon 3/18</p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <p>Tue 3/19</p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <p>Wed 3/20</p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <p>Thu 3/21</p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <p>Fri 3/22</p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                </tr>
-                <tr class="weekend center">
-                    <td>
-                        <p>Sat 3/23</p>
-                    </td>
-                    <td class="weekend center" colspan="2">
-                        <p></p>
-                    </td>
-                </tr>
-                <tr class="weekend center">
-                    <td>
-                        <p>Sun 3/24</p>
-                    </td>
-                    <td class="weekend center" colspan="2">
-                        <p></p>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-    <p class="summary">Sprint 4 (3/25-4/7): ???</p>
-    <div class="content">
-        <table class="sprint">
-            <colgroup>
-                <col class="small">
-                <col class="small">
-                <col class="large">
-                <col class="large">
-            </colgroup>
-            <thead>
-                <tr>
-                    <th>Week</th>
-                    <th>Date</th>
-                    <th>Topic</th>
-                    <th>Assignment(s) Due</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td class="first" rowspan="7">
-                        <h4>10</h4>
-                    </td>
-                    <td>
-                        <p>Mon 3/25</p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <p>Tue 3/26</p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <p>Wed 3/27</p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <p>Thu 3/28</p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <p>Fri 3/29</p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                </tr>
-                <tr class="weekend center">
-                    <td>
-                        <p>Sat 3/30</p>
-                    </td>
-                    <td class="weekend center" colspan="2">
-                        <p></p>
-                    </td>
-                </tr>
-                <tr class="weekend center">
-                    <td>
-                        <p>Sun 3/31</p>
-                    </td>
-                    <td class="weekend center" colspan="2">
-                        <p></p>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="first" rowspan="7">
-                        <h4>11</h4>
-                    </td>
-                    <td>
-                        <p>Mon 4/1</p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <p>Tue 4/2</p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <p>Wed 4/3</p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <p>Thu 4/4</p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <p>Fri 4/5</p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                </tr>
-                <tr class="weekend center">
-                    <td>
-                        <p>Sat 4/6</p>
-                    </td>
-                    <td class="weekend center" colspan="2">
-                        <p></p>
-                    </td>
-                </tr>
-                <tr class="weekend center">
-                    <td>
-                        <p>Sun 4/7</p>
-                    </td>
-                    <td class="weekend center" colspan="2">
-                        <p></p>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-    <p class="summary">Sprint 5 (4/8-4/21): ???</p>
-    <div class="content">
-        <table class="sprint">
-            <colgroup>
-                <col class="small">
-                <col class="small">
-                <col class="large">
-                <col class="large">
-            </colgroup>
-            <thead>
-                <tr>
-                    <th>Week</th>
-                    <th>Date</th>
-                    <th>Topic</th>
-                    <th>Assignment(s) Due</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td class="first" rowspan="7">
-                        <h4>12</h4>
-                    </td>
-                    <td>
-                        <p>Mon 4/8</p>
-                    </td>
-                    <td>
-                        <p><em><a href="https://rochestereclipse2024.org/">Total Solar Eclipse @ 3:20pm!</a></em></p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <p>Tue 4/9</p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <p>Wed 4/10</p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <p>Thu 4/11</p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <p>Fri 4/12</p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                </tr>
-                <tr class="weekend center">
-                    <td>
-                        <p>Sat 4/13</p>
-                    </td>
-                    <td class="weekend center" colspan="2">
-                        <p></p>
-                    </td>
-                </tr>
-                <tr class="weekend center">
-                    <td>
-                        <p>Sun 4/14</p>
-                    </td>
-                    <td class="weekend center" colspan="2">
-                        <p></p>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="first" rowspan="7">
-                        <h4>13</h4>
-                    </td>
-                    <td>
-                        <p>Mon 4/15</p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <p>Tue 4/16</p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <p>Wed 4/17</p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <p>Thu 4/18</p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <p>Fri 4/19</p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                </tr>
-                <tr class="weekend center">
-                    <td>
-                        <p>Sat 4/20</p>
-                    </td>
-                    <td class="weekend center" colspan="2">
-                        <p></p>
-                    </td>
-                </tr>
-                <tr class="weekend center">
-                    <td>
-                        <p>Sun 4/21</p>
-                    </td>
-                    <td class="weekend center" colspan="2">
-                        <p></p>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-    <p class="summary">Sprint 6 (4/22-4/29): ???</p>
-    <div class="content">
-        <table class="sprint">
-            <colgroup>
-                <col class="small">
-                <col class="small">
-                <col class="large">
-                <col class="large">
-            </colgroup>
-            <thead>
-                <tr>
-                    <th>Week</th>
-                    <th>Date</th>
-                    <th>Topic</th>
-                    <th>Assignment(s) Due</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td class="first" rowspan="7">
-                        <h4>14</h4>
-                    </td>
-                    <td>
-                        <p>Mon 4/22</p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <p>Tue 4/23</p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <p>Wed 4/24</p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <p>Thu 4/25</p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <p>Fri 4/26</p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                </tr>
-                <tr class="weekend center">
-                    <td>
-                        <p>Sat 4/27</p>
-                    </td>
-                    <td class="weekend center" colspan="2">
-                        <p></p>
-                    </td>
-                </tr>
-                <tr class="weekend center">
-                    <td>
-                        <p>Sun 4/28</p>
-                    </td>
-                    <td class="weekend center" colspan="2">
-                        <p></p>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="first">
-                        <h4>15</h4>
-                    </td>
-                    <td>
-                        <p>Mon 4/29</p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                    <td>
-                        <p></p>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-</body>
-
+        <p class="summary">Course Kickoff (8/26-9/15)</p>
+        <div class="content">
+            <table class="sprint">
+                <colgroup>
+                    <col class="small" />
+                    <col class="small" />
+                    <col class="large" />
+                    <col class="large" />
+                </colgroup>
+                <thead>
+                    <tr>
+                        <th>Week</th>
+                        <th>Date</th>
+                        <th>Topic</th>
+                        <th>Assignment(s) Due</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="first" rowspan="7"><h4>1</h4></td>
+                        <td><p>Mon 8/26</p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                    </tr>
+                    <tr>
+                        <td><p>Tue 8/27</p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                    </tr>
+                    <tr>
+                        <td><p>Wed 8/28</p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                    </tr>
+                    <tr>
+                        <td><p>Thu 8/29</p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                    </tr>
+                    <tr>
+                        <td><p>Fri 8/30</p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                    </tr>
+                    <tr class="weekend center">
+                        <td><p>Sat 8/31</p></td>
+                        <td class="weekend center" colspan="2"><p></p></td>
+                    </tr>
+                    <tr class="weekend center">
+                        <td><p>Sun 9/1</p></td>
+                        <td class="weekend center" colspan="2"><p></p></td>
+                    </tr>
+                    <tr>
+                        <td class="first" rowspan="7"><h4>2</h4></td>
+                        <td><p>Mon 9/2</p></td>
+                        <td class="vacation center" colspan="2">
+                            <p>Labor Day (No Classes)</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><p>Tue 9/3</p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                    </tr>
+                    <tr>
+                        <td><p>Wed 9/4</p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                    </tr>
+                    <tr>
+                        <td><p>Thu 9/5</p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                    </tr>
+                    <tr>
+                        <td><p>Fri 9/6</p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                    </tr>
+                    <tr class="weekend center">
+                        <td><p>Sat 9/7</p></td>
+                        <td class="weekend center" colspan="2"><p></p></td>
+                    </tr>
+                    <tr class="weekend center">
+                        <td><p>Sun 9/8</p></td>
+                        <td class="weekend center" colspan="2"><p></p></td>
+                    </tr>
+                    <tr>
+                        <td class="first" rowspan="7"><h4>3</h4></td>
+                        <td><p>Mon 9/9</p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                    </tr>
+                    <tr>
+                        <td><p>Tue 9/10</p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                    </tr>
+                    <tr>
+                        <td><p>Wed 9/11</p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                    </tr>
+                    <tr>
+                        <td><p>Thu 9/12</p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                    </tr>
+                    <tr>
+                        <td><p>Fri 9/13</p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                    </tr>
+                    <tr class="weekend center">
+                        <td><p>Sat 9/14</p></td>
+                        <td class="weekend center" colspan="2"><p></p></td>
+                    </tr>
+                    <tr class="weekend center">
+                        <td><p>Sun 9/15</p></td>
+                        <td class="weekend center" colspan="2"><p></p></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <p class="summary">Sprint 1 (9/16-9/29): ???</p>
+        <div class="content">
+            <table class="sprint">
+                <colgroup>
+                    <col class="small" />
+                    <col class="small" />
+                    <col class="large" />
+                    <col class="large" />
+                </colgroup>
+                <thead>
+                    <tr>
+                        <th>Week</th>
+                        <th>Date</th>
+                        <th>Topic</th>
+                        <th>Assignment(s) Due</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="first" rowspan="7"><h4>4</h4></td>
+                        <td><p>Mon 9/16</p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                    </tr>
+                    <tr>
+                        <td><p>Tue 9/17</p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                    </tr>
+                    <tr>
+                        <td><p>Wed 9/18</p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                    </tr>
+                    <tr>
+                        <td><p>Thu 9/19</p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                    </tr>
+                    <tr>
+                        <td><p>Fri 9/20</p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                    </tr>
+                    <tr class="weekend center">
+                        <td><p>Sat 9/21</p></td>
+                        <td class="weekend center" colspan="2"><p></p></td>
+                    </tr>
+                    <tr class="weekend center">
+                        <td><p>Sun 9/22</p></td>
+                        <td class="weekend center" colspan="2"><p></p></td>
+                    </tr>
+                    <tr>
+                        <td class="first" rowspan="7"><h4>5</h4></td>
+                        <td><p>Mon 9/23</p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                    </tr>
+                    <tr>
+                        <td><p>Tue 9/24</p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                    </tr>
+                    <tr>
+                        <td><p>Wed 9/25</p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                    </tr>
+                    <tr>
+                        <td><p>Thu 9/26</p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                    </tr>
+                    <tr>
+                        <td><p>Fri 9/27</p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                    </tr>
+                    <tr class="weekend center">
+                        <td><p>Sat 9/28</p></td>
+                        <td class="weekend center" colspan="2"><p></p></td>
+                    </tr>
+                    <tr class="weekend center">
+                        <td><p>Sun 9/29</p></td>
+                        <td class="weekend center" colspan="2"><p></p></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <p class="summary">Sprint 2 (9/30-10/13): ???</p>
+        <div class="content">
+            <table class="sprint">
+                <colgroup>
+                    <col class="small" />
+                    <col class="small" />
+                    <col class="large" />
+                    <col class="large" />
+                </colgroup>
+                <thead>
+                    <tr>
+                        <th>Week</th>
+                        <th>Date</th>
+                        <th>Topic</th>
+                        <th>Assignment(s) Due</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="first" rowspan="7"><h4>6</h4></td>
+                        <td><p>Mon 9/30</p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                    </tr>
+                    <tr>
+                        <td><p>Tue 10/1</p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                    </tr>
+                    <tr>
+                        <td><p>Wed 10/2</p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                    </tr>
+                    <tr>
+                        <td><p>Thu 10/3</p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                    </tr>
+                    <tr>
+                        <td><p>Fri 10/4</p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                    </tr>
+                    <tr class="weekend center">
+                        <td><p>Sat 10/5</p></td>
+                        <td class="weekend center" colspan="2"><p></p></td>
+                    </tr>
+                    <tr class="weekend center">
+                        <td><p>Sun 10/6</p></td>
+                        <td class="weekend center" colspan="2"><p></p></td>
+                    </tr>
+                    <tr>
+                        <td class="first" rowspan="7"><h4>7</h4></td>
+                        <td><p>Mon 10/7</p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                    </tr>
+                    <tr>
+                        <td><p>Tue 10/8</p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                    </tr>
+                    <tr>
+                        <td><p>Wed 10/9</p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                    </tr>
+                    <tr>
+                        <td><p>Thu 10/10</p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                    </tr>
+                    <tr>
+                        <td><p>Fri 10/11</p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                    </tr>
+                    <tr class="weekend center">
+                        <td><p>Sat 10/12</p></td>
+                        <td class="weekend center" colspan="2"><p></p></td>
+                    </tr>
+                    <tr class="weekend center">
+                        <td><p>Sun 10/13</p></td>
+                        <td class="weekend center" colspan="2"><p></p></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <p class="summary">Sprint 3 (10/14-10/27): ???</p>
+        <div class="content">
+            <table class="sprint">
+                <colgroup>
+                    <col class="small" />
+                    <col class="small" />
+                    <col class="large" />
+                    <col class="large" />
+                </colgroup>
+                <thead>
+                    <tr>
+                        <th>Week</th>
+                        <th>Date</th>
+                        <th>Topic</th>
+                        <th>Assignment(s) Due</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="first" rowspan="7"><h4>8</h4></td>
+                        <td><p>Mon 10/14</p></td>
+                        <td class="vacation center" colspan="2">
+                            <p>Fall Break</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><p>Tue 10/15</p></td>
+                        <td class="vacation center" colspan="2">
+                            <p>Fall Break</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><p>Wed 10/16</p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                    </tr>
+                    <tr>
+                        <td><p>Thu 10/17</p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                    </tr>
+                    <tr>
+                        <td><p>Fri 10/18</p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                    </tr>
+                    <tr class="weekend center">
+                        <td><p>Sat 10/19</p></td>
+                        <td class="weekend center" colspan="2"><p></p></td>
+                    </tr>
+                    <tr class="weekend center">
+                        <td><p>Sun 10/20</p></td>
+                        <td class="weekend center" colspan="2"><p></p></td>
+                    </tr>
+                    <tr>
+                        <td class="first" rowspan="7"><h4>9</h4></td>
+                        <td><p>Mon 10/21</p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                    </tr>
+                    <tr>
+                        <td><p>Tue 10/22</p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                    </tr>
+                    <tr>
+                        <td><p>Wed 10/23</p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                    </tr>
+                    <tr>
+                        <td><p>Thu 10/24</p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                    </tr>
+                    <tr>
+                        <td><p>Fri 10/25</p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                    </tr>
+                    <tr class="weekend center">
+                        <td><p>Sat 10/26</p></td>
+                        <td class="weekend center" colspan="2"><p></p></td>
+                    </tr>
+                    <tr class="weekend center">
+                        <td><p>Sun 10/27</p></td>
+                        <td class="weekend center" colspan="2"><p></p></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <p class="summary">Sprint 4 (10/28-11/10): ???</p>
+        <div class="content">
+            <table class="sprint">
+                <colgroup>
+                    <col class="small" />
+                    <col class="small" />
+                    <col class="large" />
+                    <col class="large" />
+                </colgroup>
+                <thead>
+                    <tr>
+                        <th>Week</th>
+                        <th>Date</th>
+                        <th>Topic</th>
+                        <th>Assignment(s) Due</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="first" rowspan="7"><h4>10</h4></td>
+                        <td><p>Mon 10/28</p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                    </tr>
+                    <tr>
+                        <td><p>Tue 10/29</p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                    </tr>
+                    <tr>
+                        <td><p>Wed 10/30</p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                    </tr>
+                    <tr>
+                        <td><p>Thu 10/31</p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                    </tr>
+                    <tr>
+                        <td><p>Fri 11/1</p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                    </tr>
+                    <tr class="weekend center">
+                        <td><p>Sat 11/2</p></td>
+                        <td class="weekend center" colspan="2"><p></p></td>
+                    </tr>
+                    <tr class="weekend center">
+                        <td><p>Sun 11/3</p></td>
+                        <td class="weekend center" colspan="2"><p></p></td>
+                    </tr>
+                    <tr>
+                        <td class="first" rowspan="7"><h4>11</h4></td>
+                        <td><p>Mon 11/4</p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                    </tr>
+                    <tr>
+                        <td><p>Tue 11/5</p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                    </tr>
+                    <tr>
+                        <td><p>Wed 11/6</p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                    </tr>
+                    <tr>
+                        <td><p>Thu 11/7</p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                    </tr>
+                    <tr>
+                        <td><p>Fri 11/8</p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                    </tr>
+                    <tr class="weekend center">
+                        <td><p>Sat 11/9</p></td>
+                        <td class="weekend center" colspan="2"><p></p></td>
+                    </tr>
+                    <tr class="weekend center">
+                        <td><p>Sun 11/10</p></td>
+                        <td class="weekend center" colspan="2"><p></p></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <p class="summary">Sprint 5 (11/11-11/24): ???</p>
+        <div class="content">
+            <table class="sprint">
+                <colgroup>
+                    <col class="small" />
+                    <col class="small" />
+                    <col class="large" />
+                    <col class="large" />
+                </colgroup>
+                <thead>
+                    <tr>
+                        <th>Week</th>
+                        <th>Date</th>
+                        <th>Topic</th>
+                        <th>Assignment(s) Due</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="first" rowspan="7"><h4>12</h4></td>
+                        <td><p>Mon 11/11</p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                    </tr>
+                    <tr>
+                        <td><p>Tue 11/12</p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                    </tr>
+                    <tr>
+                        <td><p>Wed 11/13</p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                    </tr>
+                    <tr>
+                        <td><p>Thu 11/14</p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                    </tr>
+                    <tr>
+                        <td><p>Fri 11/15</p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                    </tr>
+                    <tr class="weekend center">
+                        <td><p>Sat 11/16</p></td>
+                        <td class="weekend center" colspan="2"><p></p></td>
+                    </tr>
+                    <tr class="weekend center">
+                        <td><p>Sun 11/17</p></td>
+                        <td class="weekend center" colspan="2"><p></p></td>
+                    </tr>
+                    <tr>
+                        <td class="first" rowspan="7"><h4>13</h4></td>
+                        <td><p>Mon 11/18</p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                    </tr>
+                    <tr>
+                        <td><p>Tue 11/19</p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                    </tr>
+                    <tr>
+                        <td><p>Wed 11/20</p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                    </tr>
+                    <tr>
+                        <td><p>Thu 11/21</p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                    </tr>
+                    <tr>
+                        <td><p>Fri 11/22</p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                    </tr>
+                    <tr class="weekend center">
+                        <td><p>Sat 11/23</p></td>
+                        <td class="weekend center" colspan="2"><p></p></td>
+                    </tr>
+                    <tr class="weekend center">
+                        <td><p>Sun 11/24</p></td>
+                        <td class="weekend center" colspan="2"><p></p></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <p class="summary">Sprint 6 (11/25-12/9): ???</p>
+        <div class="content">
+            <table class="sprint">
+                <colgroup>
+                    <col class="small" />
+                    <col class="small" />
+                    <col class="large" />
+                    <col class="large" />
+                </colgroup>
+                <thead>
+                    <tr>
+                        <th>Week</th>
+                        <th>Date</th>
+                        <th>Topic</th>
+                        <th>Assignment(s) Due</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="first" rowspan="7"><h4>14</h4></td>
+                        <td><p>Mon 11/25</p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                    </tr>
+                    <tr>
+                        <td><p>Tue 11/26</p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                    </tr>
+                    <tr>
+                        <td><p>Wed 11/27</p></td>
+                        <td class="vacation center" colspan="2">
+                            <p>Thanksgiving</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><p>Thu 11/28</p></td>
+                        <td class="vacation center" colspan="2">
+                            <p>Thanksgiving</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><p>Fri 11/29</p></td>
+                        <td class="vacation center" colspan="2">
+                            <p>Thanksgiving</p>
+                        </td>
+                    </tr>
+                    <tr class="weekend center">
+                        <td><p>Sat 11/30</p></td>
+                        <td class="weekend center" colspan="2"><p></p></td>
+                    </tr>
+                    <tr class="weekend center">
+                        <td><p>Sun 12/1</p></td>
+                        <td class="weekend center" colspan="2"><p></p></td>
+                    </tr>
+                    <tr>
+                        <td class="first" rowspan="7"><h4>15</h4></td>
+                        <td><p>Mon 12/2</p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                    </tr>
+                    <tr>
+                        <td><p>Tue 12/3</p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                    </tr>
+                    <tr>
+                        <td><p>Wed 12/4</p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                    </tr>
+                    <tr>
+                        <td><p>Thu 12/5</p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                    </tr>
+                    <tr>
+                        <td><p>Fri 12/6</p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                    </tr>
+                    <tr class="weekend center">
+                        <td><p>Sat 12/7</p></td>
+                        <td class="weekend center" colspan="2"><p></p></td>
+                    </tr>
+                    <tr class="weekend center">
+                        <td><p>Sun 12/8</p></td>
+                        <td class="weekend center" colspan="2"><p></p></td>
+                    </tr>
+                    <tr>
+                        <td class="first"><h4>16</h4></td>
+                        <td><p>Mon 12/9</p></td>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </body>
 </html>

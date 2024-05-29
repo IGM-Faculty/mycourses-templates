@@ -96,15 +96,15 @@ table.sprint td.center {
 }
 
 col.small {
-    width: 8%;
+    width: 12%;
 }
 
 col.medium {
-    width: 30%;
+    width: 25%;
 }
 
 col.large {
-    width: 41%;
+    width: 40%;
 }
 
 table.sprint td.first {
