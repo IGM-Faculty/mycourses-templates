@@ -35,7 +35,7 @@ summary {
     outline: none;
     padding: .3rem;
     color: #FFF;
-    background: #f60;
+    background: #003554;
     font-weight: 500;
     padding-left: 2.2rem;
     position: relative;
@@ -46,7 +46,6 @@ summary {
 .content {
     padding: .5rem;
     border: 1px solid #888;
-    border-top: none;
 }
 
 .content-fullBorder {
@@ -84,11 +83,11 @@ table.sprint th {
 }
 
 table.sprint tr.weekend {
-    background-color: #dddddd;
+    background-color: #D0D3D4;
 }
 
 table.sprint td.vacation {
-    background-color: #a3a3a3;
+    background-color: #A2AAAD;
 }
 
 table.sprint td.center {
@@ -125,7 +124,7 @@ p.summary {
     padding: .2rem;
     margin-top: 1rem;
     color: #FFF;
-    background: #F76902;
+    background: #003554;
     font-weight: 500;
     padding-left: 1rem;
     position: relative;

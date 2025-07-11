@@ -47,7 +47,7 @@ h3 {
 }
 
 h4 {
-    color: #c95602;
+    color: #006494;
     font-size: 1.5rem;
     margin-top: 5px;
 }
@@ -76,8 +76,8 @@ p + ol {
 .jumbotron {
     padding: 3px;
     margin: 5px;
-    background: #f60;
-    color: white;
+    background: #fb8500;
+    color: black;
     text-align: center;
     font-size: 1.1rem;
 }
@@ -85,7 +85,7 @@ p + ol {
 .highlight {
     padding: 3px;
     margin: 5px;
-    background: rgba(247, 105, 2, 0.4);
+    background: #a7dffc;
     color: black;
     border-radius: 5px;
     text-align: center;
