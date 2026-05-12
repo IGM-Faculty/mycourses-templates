@@ -17,6 +17,11 @@ h4 {
     margin: 1px;
 }
 
+h5 {
+    font-size: .9rem;
+    margin: 1px;
+}
+
 p:last-child {
     padding: 0;
 }
