@@ -1,0 +1,145 @@
+/* Adapted from https://codepen.io/redesigned/pen/wvoEvqG */
+
+/* # Just Some Pretty Styles # */
+body {
+    font-family: "Lato", sans-serif;
+    padding-bottom: 100px;
+    font-size: 0.8rem;
+}
+
+p {
+    margin: 0;
+    padding-bottom: 10px;
+    font-size: .8rem;
+    line-height: 1rem;
+    color: black;
+}
+
+p:last-child {
+    padding: 0;
+}
+
+ol li,
+ul li {
+    margin-bottom: 0;
+    padding-bottom: 5px;
+    position: relative;
+}
+
+details {
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 10px;
+    background: white;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+summary {
+    border: 1px solid transparent;
+    outline: none;
+    padding: .3rem;
+    color: #FFF;
+    background: #003554;
+    font-weight: 500;
+    padding-left: 2.2rem;
+    position: relative;
+    font-size: 1.2rem;
+}
+
+
+.content {
+    padding: .5rem;
+    border: 1px solid #888;
+}
+
+.content-fullBorder {
+    padding: 1rem;
+    border: 1px solid #888;
+}
+
+
+th {
+    border-bottom: 1px solid black;
+    font-size: 1rem;
+    padding: 0.3rem;
+    text-align: left;
+    color: black;
+}
+
+td {
+    border: 1px solid #ccc;
+    padding: 0.3rem;
+}
+
+table {
+    border-style: hidden;
+    /*Remove all the outside
+    borders of the existing table*/
+}
+
+table tbody td {
+    padding: 0.2rem;
+}
+
+table.sprint {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table.sprint th {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 0.15rem;
+}
+
+table.sprint tr.weekend {
+    background-color: #D0D3D4;
+}
+
+table.sprint td.vacation {
+    background-color: #A2AAAD;
+}
+
+table.sprint td.center {
+    text-align: center;
+}
+
+col.small {
+    width: 15%;
+}
+
+col.medium {
+    width: 25%;
+}
+
+col.large {
+    width: 40%;
+}
+
+table.sprint td.first {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.4em;
+}
+
+.intro {
+    font-weight: 600;
+    font-size: 1rem;
+    font-style: italic;
+    line-height: 1.3rem;
+}
+
+p.summary {
+    border: 1px solid transparent;
+    outline: none;
+    padding: .4rem;
+    margin-top: 1rem;
+    color: #FFF;
+    background: #003554;
+    font-weight: 500;
+    padding-left: 1rem;
+    position: relative;
+    font-size: 1.1rem;
+}
